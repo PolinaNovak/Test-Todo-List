@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  width: 50%;
+  /* background-color: black; */
+}
+
+.titleInput,
+.toDoList {
+  /* background-color: yellow; */
+  height: 30%;
+  width: 100%;
+}
+
+.toDoList {
+  height: 100%;
+}
